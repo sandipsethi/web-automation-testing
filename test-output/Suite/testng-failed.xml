@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcase.forgotpassword_testcase">
+        <methods>
+          <include name="forgotpassword"/>
+        </methods>
+      </class> <!-- testcase.forgotpassword_testcase -->
+      <class name="testcase.recrument_page_testcase">
+        <methods>
+          <include name="recrument"/>
+        </methods>
+      </class> <!-- testcase.recrument_page_testcase -->
+      <class name="testcase.login_page_test_class">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcase.login_page_test_class -->
+      <class name="testcase.home_page_testcase">
+        <methods>
+          <include name="homes"/>
+        </methods>
+      </class> <!-- testcase.home_page_testcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
